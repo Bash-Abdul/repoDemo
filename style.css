@@ -1,0 +1,24 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+h1{
+    color: crimson;
+    text-decoration: underline wavy;
+    padding: 1rem 0;
+}
+
+h3{
+    color: dodgerblue;
+}
